@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/valerienguyen/eclipse-workspace2/eclipse-workspace2"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/Users/valerienguyen/Downloads/Lab 21_12.zip"/>
+			<item value="/Users/valerienguyen/Downloads/Lab 21_11.zip"/>
+			<item value="/Users/valerienguyen/Downloads/Lab 21_10.zip"/>
+			<item value="/Users/valerienguyen/Downloads/Lab 21_9.zip"/>
+			<item value="/Users/valerienguyen/Downloads/Lab 21_8.zip"/>
+			<item value="/Users/valerienguyen/Downloads/Lab 21_7.zip"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.views.markers.FiltersConfigurationDialog">
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="528" key="DIALOG_HEIGHT"/>
+		<item value="286" key="DIALOG_X_ORIGIN"/>
+		<item value="22" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

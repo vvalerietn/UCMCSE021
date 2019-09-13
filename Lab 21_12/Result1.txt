@@ -1,0 +1,15 @@
+Enter the file name: data/matrix1.txt
+    0     0     0 
+    0     0     0 
+    0     0     0 
+Enter the file name: data/matrix2.txt
+    1     2     3 
+    4     5     6 
+    7     8     9 
+0	0	0	
+0	0	0	
+0	0	0	
+Wrote results to data/RESULT.txt
+    0     0     0 
+    0     0     0 
+    0     0     0 

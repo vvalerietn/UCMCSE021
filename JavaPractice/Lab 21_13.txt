@@ -1,0 +1,11 @@
+1. What is your score on the sample exam?
+
+I think my score on the sample exam was 250/300
+
+2. Show one problem you fixed with the help of Eclipse or notes (if any)
+
+One problem I fixed with the help of Eclipse was #10.
+
+3. Any topics or problems you have trouble understanding? (if any)
+
+I have trouble understanding 2D arrays but that's it.

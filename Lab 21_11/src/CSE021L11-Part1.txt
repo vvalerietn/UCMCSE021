@@ -1,0 +1,100 @@
+Task 1:
+Code Executed: words.add ("a");
+Result from Code: [a]
+
+Code Executed:
+	words.add ("a");
+	words.add ("b");
+Result from Code: [a, b]
+
+Code Executed:
+	words.add ("a");
+	words.add ("b");
+	words.add ("c");
+Result from Code: [a, b, c]
+
+Code Executed:
+	words.add ("a");
+	words.add ("b");
+	words.add ("c");
+	words.remove ("b");
+Result from Code: [a, c]
+
+Code Executed:
+	words.add ("a");
+	words.add ("b");
+	words.add ("c");
+	words.remove ("b");
+	words.add ("d");
+Result from Code: [a, c, d]
+
+Code Executed:
+	words.add ("a");
+	words.add ("b");
+	words.add ("c");
+	words.remove ("b");
+	words.add ("d");
+	words.remove ("a");
+Result from Code: [c, d]
+
+Code Executed: 
+	words.add ("a");
+	words.add ("b");
+	words.add ("c");
+	words.remove ("b");
+	words.add ("d");
+	words.remove ("a");
+	words.add ("e");
+Result from Code: [c, d, e]
+
+Code Executed: 
+	words.add ("a");
+	words.add ("b");
+	words.add ("c");
+	words.remove ("b");
+	words.add ("d");
+	words.remove ("a");
+	words.add ("e");
+	words.remove ("b");
+Result from Code: [c, d, e]
+
+Code Executed:
+	words.add ("a");
+	words.add ("b");
+	words.add ("c");
+	words.remove ("b");
+	words.add ("d");
+	words.remove ("a");
+	words.add ("e");
+	words.remove ("b");
+	words.add ("d");
+Result from Code: [c, d, e, d]
+
+Code Executed:
+	words.add ("a");
+	words.add ("b");
+	words.add ("c");
+	words.remove ("b");
+	words.add ("d");
+	words.remove ("a");
+	words.add ("e");
+	words.remove ("b");
+	words.add ("d");
+	words.remove ("c");
+Result from Code: [d, e, d]
+
+Code Executed:
+	words.add ("a");
+	words.add ("b");
+	words.add ("c");
+	words.remove ("b");
+	words.add ("d");
+	words.remove ("a");
+	words.add ("e");
+	words.remove ("b");
+	words.add ("d");
+	words.remove ("c");
+	words.remove ("d");
+Result from Code: [e, d]
+
+

@@ -1,0 +1,102 @@
+import java.util.*;
+
+public class CheeseShop {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+        
+        double humbFog, redHawk, teleme;
+        
+        System.out.println("We sell 3 kinds of Cheese (in 0.5 lb packages).");
+        System.out.println("Humoldt Fog: $25.00 per pound.");
+        System.out.println("Red Hawk: $40.50 per pound.");
+        System.out.println("Teleme: $17.25 per pound.");
+        
+        //user inputs in pounds, program converts to 0.5lbs increments
+        
+        //HumbFog
+        System.out.print("Enter the amount of Humboldt Fog in lbs: ");
+        humbFog = input.nextDouble();
+        while ((humbFog < 0) || (humbFog % 0.5 != 0)) {
+        	if (humbFog < 0) {
+            	System.out.print("Invalid input. Enter a value that is >= 0: ");
+            	humbFog = input.nextDouble();
+            }
+        	if (humbFog % 0.5 != 0) {
+            	System.out.print("Invaid input. Enter a value that's multiple of 0.5: ");
+            	humbFog = input.nextDouble();
+        	}
+        }
+        
+        //RedHawk
+        System.out.print("Enter the amount of Red Hawk in lbs: ");
+        redHawk = input.nextDouble();
+        while ((redHawk < 0) || (redHawk % 0.5 != 0)) {
+        	if (redHawk < 0) {
+            	System.out.print("Invalid input. Enter a value that is >= 0: ");
+            	redHawk = input.nextDouble();
+            }
+        	if (redHawk % 0.5 != 0) {
+            	System.out.print("Invaid input. Enter a value that's multiple of 0.5: ");
+            	redHawk = input.nextDouble();
+        	}
+        }
+        
+        //Teleme
+        System.out.print("Enter the amount of Teleme in lbs: ");
+        teleme = input.nextDouble();
+        while ((teleme < 0) || (teleme % 0.5 != 0)) {
+        	if (teleme < 0) {
+            	System.out.print("Invalid input. Enter a value that is >= 0: ");
+            	teleme = input.nextDouble();
+            }
+        	if (teleme % 0.5 != 0) {
+            	System.out.print("Invaid input. Enter a value that's multiple of 0.5: ");
+            	teleme = input.nextDouble();
+        	}
+        }
+      
+        //discount calculators
+        
+        //for HumbFog
+        //double countHF = 0.0; 
+        if (humbFog != 0) {
+        	humbFog = humbFog * 2; 
+        }
+        
+        //for Red Hawk ; return total RedHawk
+        //double countRedHawk = 0.0;
+        if (redHawk % 1 == 0 ) {
+        	// to find total gotta divide by 3
+        	redHawk = redHawk + ((int)redHawk / 2);
+        }
+        
+        //calculations
+        double hfPrice = humbFog * 25.0;
+        double rhPrice = redHawk * 40.5;
+        double tPrice = teleme * 17.25;
+        
+        //display the itemized list 
+        System.out.print("\nDisplay the itemized list? (1 for yes) ");
+        int itemizedList;
+        itemizedList = input.nextInt();
+        
+        if (itemizedList == 1) {
+        	System.out.println(humbFog + " lb of Humboldt Fog @ $25.0 = $" + hfPrice );
+        	System.out.println(redHawk + " lb of Red Hawk @ $40.5 = $" + rhPrice);
+        	System.out.println(teleme + " lb of Teleme @ $17.25 = $" + tPrice);
+        }
+      
+        //display subtotal 
+        double subtotal = (hfPrice + rhPrice + tPrice);
+        System.out.println("\nSubtotal: $" + subtotal);
+        System.out.println("Discounts...");
+        
+        //if statement to find out total discounts
+        
+        //divisible by 0.5 and 
+        
+	}
+
+}
